@@ -50,12 +50,12 @@ public class IntegerListTest
                 int y = scan.nextInt();
                 list.removeFirst(y);
                 break;
-            /*case 5:
+            case 5:
                 System.out.println("Enter the number you want to remove : ");
                 int z = scan.nextInt();
                 list.removeAll(z);
                 break;
-               */
+
 
             default:
                 System.out.println("Sorry, invalid choice");

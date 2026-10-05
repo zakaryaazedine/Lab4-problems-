@@ -65,12 +65,11 @@ public class IntegerList
         }
     }
 
- /*   void removeAll(int newVal){
+    void removeAll(int newVal){
         int numofOcc =0;
         for (int i=0;i<numberOfElements;i++) {
             if (list[i] == newVal){
                 numofOcc+=1;
-                break;
             }
         }
 
@@ -79,7 +78,7 @@ public class IntegerList
 
 
 
-    }*/
+    }
 
 
 
