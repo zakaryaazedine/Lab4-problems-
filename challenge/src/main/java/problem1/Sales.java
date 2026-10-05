@@ -22,5 +22,7 @@ public class Sales
             sum += sales[i];
         }
         System.out.println("\nTotal sales: " + sum);
+        System.out.println("\nAverafe sales: " + (double) sum/5);
+
     }
 }
