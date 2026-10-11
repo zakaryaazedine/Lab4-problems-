@@ -18,7 +18,7 @@ public class Student extends Person {
       super(prenom,nom,telephone,email);
       this.cne = cne;
       this.major = major;
-      if (major!=null) major.addStudent(this);
+      if (major!=null && major.getStudentCount()<50) major.addStudent(this);
    }
 
 

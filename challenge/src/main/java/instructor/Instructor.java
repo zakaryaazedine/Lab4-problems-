@@ -42,7 +42,7 @@ public class Instructor extends Person {
 
 
     public String summaryLine(){
-        return String.format("Instructor[employeeNumber=%s, lastName=%s, firstName=%s]", this.employeeNumber, this.firstName,this.secondName);
+        return String.format("Instructor[employeeNumber=%s, lastName=%s, firstName=%s]", this.employeeNumber, this.secondName,this.firstName);
     }
 
     public String toCard(){
@@ -61,7 +61,7 @@ public class Instructor extends Person {
         StringBuilder x = new StringBuilder();
         if (firstName != null) x.append(firstName);
         if (secondName != null) {
-            if (x.length() > 0) x.append(' ');
+            if (!x.isEmpty()) x.append(' ');
             x.append(secondName);
         }
         return x.toString();
